@@ -28,6 +28,7 @@ https://grand-granita-0460d0.netlify.app/
 
 ## Folder Structure
 
+```
 Thala 7 - Sneaker Store/
 ├── image-cart/
 │   ├── cart1.jpg
@@ -48,6 +49,7 @@ Thala 7 - Sneaker Store/
 ├── product.html
 ├── style.css
 └── README.md
+```
 
 ## Author 
 
