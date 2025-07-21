@@ -43,12 +43,12 @@ Thala 7 - Sneaker Store/
 │   ├── product3.jpg
 │   ├── product4.jpg
 │   └── product5.jpg
+├── README.md
 ├── cart.html
 ├── index.html
 ├── payment.html
 ├── product.html
-├── style.css
-└── README.md
+└── style.css
 ```
 
 ## Author 
