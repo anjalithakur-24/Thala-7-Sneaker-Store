@@ -28,26 +28,26 @@ https://grand-granita-0460d0.netlify.app/
 
 ## Folder Structure
 
-THALA 7-SNEAKER STORE/
+Thala 7 - Sneaker Store/
 ├── image-cart/
-│ ├── cart1.jpg
-│ ├── cart2.jpg
-│ └── cart3.jpg
+│   ├── cart1.jpg
+│   ├── cart2.jpg
+│   └── cart3.jpg
 ├── image-hero/
-│ ├── hero7.jpg
-│ └── logo.jpg
+│   ├── hero7.jpg
+│   └── logo.jpg
 ├── image-product/
-│ ├── product1.jpg
-│ ├── product2.jpg
-│ ├── product3.jpg
-│ ├── product4.jpg
-│ └── product5.jpg
+│   ├── product1.jpg
+│   ├── product2.jpg
+│   ├── product3.jpg
+│   ├── product4.jpg
+│   └── product5.jpg
 ├── cart.html
 ├── index.html
 ├── payment.html
 ├── product.html
-├── README.md
-└── style.css
+├── style.css
+└── README.md
 
 ## Author 
 
