@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span class="logo-orange">Thala</span> <span class="logo-blue">7.</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li>Brands</li>
+                <li>More</li>
+                <li>Contact</li>
+            </ul>
+            <div class="nav-icons">
+                <span class="icon search">&#128269;</span>
+                <a href="cart.html" class="icon cart">&#128722;</a>
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-pic">
+            </div>
+        </nav>
+    </header>
+
+    <section class="payment-main">
+        <div class="payment-left">
+            <div class="checkout-title">Checkout</div>
+            <div class="checkout-section">
+                <label for="email" class="checkout-label">Email ID</label>
+                <input type="email" id="email" class="checkout-input" placeholder="John Doe">
+            </div>
+            <div class="checkout-section">
+                <div class="checkout-subtitle">Payment</div>
+                <div class="payment-methods">
+                    <button class="payment-method active"><span class="pm-icon">&#128179;</span> Card</button>
+                    <button class="payment-method"><span class="pm-icon">&#8383;</span> Crypto</button>
+                    <button class="payment-method"><span class="pm-icon">&#127974;</span> Bank</button>
+                    <button class="payment-method"><span class="pm-icon">&#8942;</span></button>
+                </div>
+                <div class="payment-fields">
+                    <label>Card Number</label>
+                    <input type="text" class="checkout-input" placeholder="John Doe">
+                    <div class="payment-fields-row">
+                        <div>
+                            <label>Expiry</label>
+                            <input type="text" class="checkout-input" placeholder="MM/YY">
+                        </div>
+                        <div>
+                            <label>CVC</label>
+                            <input type="text" class="checkout-input" placeholder="***">
+                        </div>
+                    </div>
+                    <div class="payment-fields-row">
+                        <div>
+                            <label>Country</label>
+                            <select class="checkout-input">
+                                <option>India</option>
+                                <option>USA</option>
+                                <option>UK</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>ZIP</label>
+                            <input type="text" class="checkout-input" placeholder="XXXXX">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="payment-right">
+            <div class="order-summary-title">Order Summary</div>
+            <div class="cart-summary">
+                <label for="coupon" class="coupon-label">Enter Coupon Code</label>
+                <div class="coupon-row">
+                    <input type="text" id="coupon" class="coupon-input" placeholder="COUPON CODE">
+                    <button class="apply-coupon-btn">Apply Coupon</button>
+                </div>
+                <div class="summary-row">
+                    <span>Sub Total</span>
+                    <span>&#8377;4,700</span>
+                </div>
+                <div class="summary-row">
+                    <span>Taxes(if applicable)</span>
+                    <span>&#8377;199</span>
+                </div>
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span>&#8377;0</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span>Total</span>
+                    <span class="summary-total">&#8377;4,999</span>
+                </div>
+                <button class="paynow-btn">Pay Now &#8377;4,999</button>
+                <div class="payment-icons">
+                    <img src="image-cart/cart1.jpg" alt="Secure" height="28">
+                    <img src="image-cart/cart2.jpg" alt="Razorpay" height="28">
+                    <img src="image-cart/cart3.jpg" alt="PCI DSS" height="28">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><span class="logo-orange">Thala</span> <span class="logo-blue">7.</span></div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li>About</li>
+                <li>Brands</li>
+                <li>More</li>
+                <li>Contact</li>
+            </ul>
+            <div class="nav-icons">
+                <span class="icon search">&#128269;</span>
+                <span class="icon cart">&#128722;</span>
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Profile" class="profile-pic">
+            </div>
+        </nav>
+    </header>
+
+    <!-- Cart Main Section -->
+    <section class="cart-main">
+        <div class="cart-left">
+            <h1 class="cart-title">Shopping Cart</h1>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes</td>
+                        <td>
+                            <span class="qty-btn">-</span>
+                            <span class="qty-num">1</span>
+                            <span class="qty-btn">+</span>
+                        </td>
+                        <td>&#8377;4,999</td>
+                        <td><span class="remove-btn">&#10006;</span></td>
+                    </tr>
+                    <tr>
+                        <td>Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes</td>
+                        <td>
+                            <span class="qty-btn">-</span>
+                            <span class="qty-num">1</span>
+                            <span class="qty-btn">+</span>
+                        </td>
+                        <td>&#8377;4,999</td>
+                        <td><span class="remove-btn">&#10006;</span></td>
+                    </tr>
+                    <tr>
+                        <td>Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes</td>
+                        <td>
+                            <span class="qty-btn">-</span>
+                            <span class="qty-num">1</span>
+                            <span class="qty-btn">+</span>
+                        </td>
+                        <td>&#8377;4,999</td>
+                        <td><span class="remove-btn">&#10006;</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="continue-shopping">
+                <span>&#8592;</span> Continue Shopping
+            </div>
+        </div>
+        <div class="cart-right">
+            <div class="cart-summary">
+                <label for="coupon" class="coupon-label">Enter Coupon Code</label>
+                <div class="coupon-row">
+                    <input type="text" id="coupon" class="coupon-input" placeholder="COUPON CODE">
+                    <button class="apply-coupon-btn">Apply Coupon</button>
+                </div>
+                <div class="summary-row">
+                    <span>Sub Total</span>
+                    <span>&#8377;4,700</span>
+                </div>
+                <div class="summary-row">
+                    <span>Taxes(if applicable)</span>
+                    <span>&#8377;199</span>
+                </div>
+                <div class="summary-row">
+                    <span>Discount</span>
+                    <span>&#8377;0</span>
+                </div>
+                <div class="summary-row total-row">
+                    <span>Total</span>
+                    <span class="summary-total">&#8377;4,999</span>
+                </div>
+                <!-- <button class="paynow-btn">Pay Now &#8377;4,999</button> -->
+                <a href="payment.html" class="paynow-btn">Pay Now &#8377;4,999</a>
+                <div class="payment-icons" style="padding-top: 5%;">
+                    <img src="image-cart/cart1.jpg" alt="Secure" height="28">
+                    <img src="image-cart/cart2.jpg" alt="Razorpay" height="28">
+                    <img src="image-cart/cart3.jpg" alt="PCI DSS" height="28">
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
